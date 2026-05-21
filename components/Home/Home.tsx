@@ -25,12 +25,12 @@ const Home = () => {
 
   return (
     <div className='overflow-hidden'>
-        <Hero />
-        <About />
-        <Skills />
-        <Project />
-        <Experience />
-        <Contact />
+        <Hero id="home"/>
+        <About id="about"/>
+        <Skills id="skills" />
+        <Project id="projects" />
+        <Experience id="experience" />
+        <Contact id="contact" />
     </div>
   )
 }

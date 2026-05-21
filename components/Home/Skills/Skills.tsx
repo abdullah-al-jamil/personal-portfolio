@@ -3,9 +3,11 @@ import { skillCategories } from '@/data'
 import React from 'react'
 import SkillCard from './SkillCard'
 
-const Skills = () => {
+type Props = { id: string }
+
+const Skills = (props: Props) => {
   return (
-    <div className='py-16 bg-gray-100 dark:bg-gray-950'>
+    <div id={props.id} className='py-16 bg-gray-100 dark:bg-gray-950'>
         <SectionHeading title_1='Technical' title_2='Skills' description='A showcase of my technical expertise and proficiencies' />
         <div className='space-y-12 w-[80%] mx-auto'>
             {skillCategories.map((category) => {

@@ -6,9 +6,11 @@ import { contactInfo, socialLinks } from '@/data'
 import { Send } from 'lucide-react'
 import React from 'react'
 
-const Contact = () => {
+type Props = { id: string }
+
+const Contact = (props: Props) => {
   return (
-    <div className='py-16 bg-gray-100 dark:bg-gray-950'>
+    <div id={props.id} className='py-16 bg-gray-100 dark:bg-gray-950'>
         <SectionHeading title_1='Contact' title_2='Me' description='Feel free to reach out to me for any inquiries, collaborations, or just to say hello!' />
         <div className='w-[80%] mx-auto'>
             <div className='grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto'>

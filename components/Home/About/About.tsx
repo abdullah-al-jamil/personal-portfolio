@@ -2,9 +2,13 @@ import SectionHeading from '@/components/Helper/SectionHeading'
 import { highlights, stats } from '@/data'
 import React from 'react'
 
-const About = () => {
+type Props = {
+    id: string;
+}
+
+const About = ({ id }: Props) => {
   return (
-    <div className='py-16 bg-gray-100 dark:bg-gray-900'>
+    <div id={id} className='py-16 bg-gray-100 dark:bg-gray-900'>
         <SectionHeading title_1='About' title_2='Me' description='Get to know the developer behind the code' />
         <div className='grid w-[80%] mx-auto lg:grid-cols-2 gap-12 items-center'>
             <div className='relative'>

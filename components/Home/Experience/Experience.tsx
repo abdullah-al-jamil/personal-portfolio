@@ -3,9 +3,11 @@ import { experiences } from '@/data'
 import { Briefcase, GraduationCap, Section } from 'lucide-react'
 import React from 'react'
 
-const Experience = () => {
+type Props = { id: string }
+
+const Experience = (props: Props) => {
   return (
-    <div className='py-16 bg-gray-100 dark:bg-gray-950'>
+    <div id={props.id} className='py-16 bg-gray-100 dark:bg-gray-950'>
         <SectionHeading title_1='Experience &' title_2='Education' description='A summary of my professional journey and educational background.' />
         <div className='relative px-6 max-w-4xl mx-auto'>
             <div className='absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-linear-to-b from-blue-400 to-blue-900 md:-translate-x-px'>

@@ -1,10 +1,11 @@
 "use client";
 import React, { useEffect } from 'react'
 import Logo from '../../Helper/Logo'
-import { navLinks } from '@/app/Constant/Constant'
+import { navLinks } from '@/Constant/Constant'
 import Link from 'next/link'
 import { Download, MenuIcon } from 'lucide-react'
 import ThemeToggler from '@/components/Helper/ThemeToggler'
+import { scroller } from 'react-scroll';
 
 type Props = {
   openNav: () => void;
@@ -28,14 +29,24 @@ const Nav = ({ openNav }: Props) => {
     };
   }, []);
 
+  const scrollToSection = (sectionName: string) => {
+    
+    scroller.scrollTo(sectionName, {
+      duration: 800,        // Animation speed in milliseconds
+      delay: 0,
+      smooth: 'easeInOutQuart', // Smooth scrolling effect
+      offset: -70,          // Adjust for your fixed navbar's height
+    });
+  };
+
   return (
     <div className={`transition-all duration-200 h-[12vh] z-100 fixed w-full ${navBg ? "dark:bg-gray-800 bg-white shadow-md" : "fixed"}`}>
       <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
         <Logo />
         <div className='hidden lg:flex items-center space-x-10'>
           {navLinks.map((link, index) => (
-            <Link key={index} href={link.href}
-            className='dark:text-white text-black hover:text-yellow-500 dark:hover:text-yellow-200 font-semibold transition-all duration-200'> <p>{link.name}</p></Link>
+            <div key={index} onClick={() => scrollToSection(link.href)}
+            className='dark:text-white text-black hover:cursor-pointer hover:text-yellow-500 dark:hover:text-yellow-200 font-semibold transition-all duration-200'> <p>{link.name}</p></div>
           ))}
         </div>
         <div className='flex items-center space-x-4'>
