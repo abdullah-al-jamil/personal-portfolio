@@ -6,20 +6,16 @@ import {
   Cpu,
   Database,
   GitBranch,
-  Globe,
   GraduationCap,
-  Layers,
-  Layout,
   Mail,
   MapPin,
   Palette,
   Phone,
   Server,
-  Smartphone,
   Terminal,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { FaAws, FaCss3Alt, FaDocker, FaGithub, FaHtml5, FaJs, FaLaravel, FaLinkedin, FaLinkedinIn, FaLinux, FaPhp, FaTwitter, FaVuejs } from "react-icons/fa6";
 
 export const stats = [
   { label: "Years Experience", value: "5+" },
@@ -213,22 +209,22 @@ export const skillCategories = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", icon: Code2 },
-      { name: "Next.js", icon: Globe },
-      { name: "TypeScript", icon: Terminal },
+      { name: "HTML", icon: FaHtml5 },
+      { name: "CSS", icon: FaCss3Alt },
+      { name: "JavaScript", icon: FaJs },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
+      { name: "jQuery", icon: Code2 },
+      { name: "Vue.js", icon: FaVuejs },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", icon: Server },
-      { name: "Express", icon: Layers },
-      { name: "MongoDB", icon: Database },
+      { name: "C", icon: Cpu },
+      { name: "PHP", icon: FaPhp },
+      { name: "Laravel", icon: FaLaravel },
+      { name: "MySQL", icon: Database },
       { name: "PostgreSQL", icon: Database },
-      { name: "GraphQL", icon: Cpu },
       { name: "REST APIs", icon: Cloud },
     ],
   },
@@ -236,11 +232,11 @@ export const skillCategories = [
     title: "Tools & Others",
     skills: [
       { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: Server },
-      { name: "AWS", icon: Cloud },
-      { name: "Linux", icon: Terminal },
-      { name: "Figma", icon: Palette },
-      { name: "CI/CD", icon: Cpu },
+      { name: "Docker", icon: FaDocker },
+      { name: "AWS", icon: FaAws },
+      { name: "Linux", icon: FaLinux },
+      { name: "Redis", icon: Database },
+      { name: "CI/CD", icon: Server },
     ],
   },
 ];

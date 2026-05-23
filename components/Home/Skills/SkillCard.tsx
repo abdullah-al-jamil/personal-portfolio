@@ -1,9 +1,8 @@
-import { LucideIcon } from 'lucide-react';
 import React from 'react'
 
 type Props = {
     name: string;
-    icon: LucideIcon;
+    icon: React.ElementType;
 }
 
 const SkillCard = ({name, icon: Icon}) => {
