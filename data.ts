@@ -96,48 +96,48 @@ export const socialLinks = [
 export const experiences = [
   {
     type: "work",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
+    title: "Software Engineer",
+    company: "Dotlines Technologies Ltd.",
     period: "2022 - Present",
     description:
       "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+    technologies: ["C", "PHP", "Laravel", "Vue.js", "MySQL"],
   },
-  {
-    type: "work",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-  },
+  // {
+  //   type: "work",
+  //   title: "Full-Stack Developer",
+  //   company: "StartupXYZ",
+  //   period: "2020 - 2022",
+  //   description:
+  //     "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
+  //   technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
+  // },
+  // {
+  //   type: "education",
+  //   title: "Master of Computer Science",
+  //   company: "Stanford University",
+  //   period: "2018 - 2020",
+  //   description:
+  //     "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
+  //   technologies: ["Research", "AI/ML", "Distributed Systems"],
+  // },
+  // {
+  //   type: "work",
+  //   title: "Junior Developer",
+  //   company: "WebAgency Co.",
+  //   period: "2018 - 2020",
+  //   description:
+  //     "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
+  //   technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
+  // },
   {
     type: "education",
-    title: "Master of Computer Science",
-    company: "Stanford University",
-    period: "2018 - 2020",
-    description:
-      "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-    technologies: ["Research", "AI/ML", "Distributed Systems"],
-  },
-  {
-    type: "work",
-    title: "Junior Developer",
-    company: "WebAgency Co.",
-    period: "2018 - 2020",
-    description:
-      "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
-  },
-  {
-    type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
+    title: "Bachelor of Computer Science and Engineering",
+    company: "Southeast University",
+    period: "2016 - 2021",
     description:
       "Strong foundation in algorithms, data structures, and software engineering principles.",
-    technologies: ["Computer Science", "Mathematics", "Problem Solving"],
+    technologies: ["Computer Science", "Competitive Programming", "Problem Solving"],
   },
 ];
 
