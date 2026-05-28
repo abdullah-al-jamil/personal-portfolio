@@ -47,7 +47,7 @@ const About = ({ id }: Props) => {
                 </div>
             </div>
         </div>
-        <div className='mt-16 w-[80%] mx-auto'>
+        {/* <div className='mt-16 w-[80%] mx-auto'>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-6'>
                 {stats.map((stat) => {
                     return (
@@ -63,7 +63,7 @@ const About = ({ id }: Props) => {
                     )
                 })}
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
