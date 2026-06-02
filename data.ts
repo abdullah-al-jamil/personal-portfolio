@@ -25,9 +25,9 @@ export const stats = [
 ];
 
 export const highlights = [
-  { icon: MapPin, text: "Based in San Francisco, CA" },
+  { icon: MapPin, text: "Based in Dhaka, Bangladesh" },
   { icon: Briefcase, text: "Open for freelance work" },
-  { icon: GraduationCap, text: "CS Graduate from Stanford" },
+  { icon: GraduationCap, text: "CS Graduate from Southeast University" },
   { icon: Coffee, text: "Powered by coffee & curiosity" },
 ];
 
@@ -70,8 +70,8 @@ export const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@johndoe.dev",
-    href: "mailto:hello@johndoe.dev",
+    value: "jamilahmed284@gmail.com",
+    href: "mailto:jamilahmed284@gmail.com",
   },
   {
     icon: Phone,
@@ -82,15 +82,15 @@ export const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Dhaka, Bangladesh",
     href: "#",
   },
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedinIn, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/abdullah-al-jamil", label: "GitHub" },
+  { icon: FaLinkedinIn, href: "https://www.linkedin.com/in/abdullah-al-jamil", label: "LinkedIn" },
+  // { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
 export const experiences = [
@@ -142,10 +142,10 @@ export const experiences = [
 ];
 
 export const footerSocialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: FaGithub, href: "https://github.com/abdullah-al-jamil", label: "GitHub" },
+  { icon: FaLinkedinIn, href: "https://www.linkedin.com/in/abdullah-al-jamil", label: "LinkedIn" },
+  // { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Mail, href: "mailto:jamilahmed284@gmail.com", label: "Email" },
 ];
 
 export const projects = [
