@@ -47,7 +47,7 @@ const Hero = ({ id }: Props) => {
                             View Projects</a>
                     </Button>
                     <Button size="lg" asChild className='w-fit mx-auto sm:mx-0'>
-                        <a href="#_">
+                        <a href="/Resume_Abdullah_Al_Jamil.pdf" download>
                             <Download className='w-5 h-5 mr-2' />
                             Download Resume
                         </a>
