@@ -23,9 +23,17 @@ const ProjectCard = ({title, description, image, techStack, demoUrl, githubUrl}:
             <h3 className='text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors'>
                 {title}
             </h3>
-            <p className='text-muted-foreground text-sm mb-4 line-clamp-2'>
-                {description}
-            </p>
+            <div className='relative'>
+                <p className='peer text-muted-foreground text-sm mb-4 line-clamp-2'>
+                    {description}
+                </p>
+                <div
+                    role='tooltip'
+                    className='absolute left-0 top-full mt-2 w-72 max-w-full p-3 rounded-lg shadow-lg bg-white text-black dark:bg-gray-800 dark:text-white text-sm z-50 opacity-0 pointer-events-none peer-hover:opacity-100 peer-hover:pointer-events-auto transition-opacity'
+                >
+                    {description}
+                </div>
+            </div>
             <div className='flex flex-wrap gap-2 mb-6'>
                 {techStack.map((tech) => {
                     return <span key={tech} className='text-xs px-3 py-1 rounded-full bg-indigo-600 text-white font-medium'

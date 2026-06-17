@@ -150,59 +150,59 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Barista Cafe",
     description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    image: "/images/p1.jpg",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A modern coffee shop website with features public menu, reservations, and a full admin dashboard with CRUD management for menu, team, reviews, and bookings.",
+    image: "/images/barista-cafe.jpeg",
+    techStack: ["Laravel", "Vue.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+    demoUrl: "https://new-barista-cafe.netlify.app/",
+    githubUrl: "https://github.com/abdullah-al-jamil/barista-cafe",
   },
   {
-    title: "Task Management App",
+    title: "Life Drop Blood Donation",
     description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/p2.jpg",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A full-stack blood donation management system — donors register, book appointments, and request blood; admins manage inventory and donation centers.",
+    image: "/images/life-drop-donation.png",
+    techStack: ["Laravel", "Vue.js", "sqlite", "Tailwind CSS", "Docker"],
+    demoUrl: "https://lifedropdonateblood.netlify.app/",
+    githubUrl: "https://github.com/abdullah-al-jamil/blood-donation-laravel-vue",
   },
   {
-    title: "AI Content Generator",
+    title: "Smart News Dashboard",
     description:
-      "GPT-powered content creation platform for marketers with templates and workflow automation.",
-    image: "/images/p3.jpg",
-    techStack: ["React", "Python", "OpenAI", "FastAPI"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "AI‑driven news dashboard using Laravel, NewsAPI, and Google Gemini. Features: summarization, chatbot, and categorized feed.",
+    image: "/images/smart-news-dashboard.png",
+    techStack: ["Laravel", "Google Gemini", "Alpine.js", "Tailwind CSS", "Docker"],
+    demoUrl: "https://smart-news-dashboard.onrender.com/",
+    githubUrl: "https://github.com/abdullah-al-jamil/smart-news-dashboard",
   },
-  {
-    title: "Real Estate Platform",
-    description:
-      "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-    image: "/images/p4.jpg",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Fitness Tracker",
-    description:
-      "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-    image: "/images/p5.jpg",
-    techStack: ["React Native", "Firebase", "Node.js", "Charts"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Learning Management System",
-    description:
-      "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
-    image: "/images/p6.jpg",
-    techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
+  // {
+  //   title: "Real Estate Platform",
+  //   description:
+  //     "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
+  //   image: "/images/p4.jpg",
+  //   techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // },
+  // {
+  //   title: "Fitness Tracker",
+  //   description:
+  //     "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
+  //   image: "/images/p5.jpg",
+  //   techStack: ["React Native", "Firebase", "Node.js", "Charts"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // },
+  // {
+  //   title: "Learning Management System",
+  //   description:
+  //     "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
+  //   image: "/images/p6.jpg",
+  //   techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // },
 ];
 
 export const skillCategories = [

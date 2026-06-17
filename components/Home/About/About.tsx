@@ -25,10 +25,10 @@ const About = ({ id }: Props) => {
                     A passionate developer with a love for crafting elegant solutions and learning new technologies.
                 </h3>
                 <p className='text-muted-foreground leading-relaxed'>
-                    I am a full-stack developer with expertise in React, Node.js, and Python. I have a strong background in building scalable web applications and a passion for creating seamless user experiences. I am always eager to learn new technologies and take on challenging projects that allow me to grow as a developer.
+                    I am a full-stack developer with expertise in php, laravel and vue.js. I have a strong background in building scalable web applications and a passion for creating seamless user experiences. I am always eager to learn new technologies and take on challenging projects that allow me to grow as a developer.
                 </p>
                 <p className='text-muted-foreground leading-relaxed'>
-                    Beyond coding, I enjoy hiking, photography, and exploring new cuisines. I believe that a well-rounded life outside of work fuels creativity and innovation in my professional endeavors. I am excited to connect with like-minded individuals and contribute to impactful projects that make a difference.
+                    Beyond coding, I enjoy traveling, reading, and exploring new cuisines. I believe that a well-rounded life outside of work fuels creativity and innovation in my professional endeavors. I am excited to connect with like-minded individuals and contribute to impactful projects that make a difference.
                 </p>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4'>
